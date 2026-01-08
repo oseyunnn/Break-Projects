@@ -33,6 +33,21 @@ body{
 input:focus {
     outline-color: rgb(17, 17, 17);
 }
+
+button{
+     padding: 10px 20px;
+    background-color: #eceaea;
+    color: rgb(145, 139, 139);
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #030303;
+    color: white;
+}
+
 #add-win-button{
     padding: 10px 20px;
     background-color: #eceaea;

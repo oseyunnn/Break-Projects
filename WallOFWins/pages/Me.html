@@ -2,27 +2,40 @@
 
 <html>
     <head>
-        <title`>C of Wins</title>
+            <title>Me</title>
+            <link rel="stylesheet" href="styles.css">
+
         <meta charset="UTF-8">
     </head>
 
     <body>
         <div>
-            <div id = "navbar">
+            <div class = "navbarContainer">
+                    <div class="navIcon">☰</div>
+                    <div class = "navbar">  
                     <a href="./BoardOfWins.html">Home</a>
                     <a href="./MyBoards.html">My Boards</a>
                     <a href="./TreasureChest.html">Treasure Chest</a>
                     <a href="./Me.html">Me</a>
+                   </div>
             </div>
-            <div id = "content">
-                <h1>ANGELA JAHZIEL's</h1>
-               <h2>Board of Wins</h2>
+            <div  class = "content">
+                <div>
+                    <h1 id = "userName">ANGELA JAHZIEL's</h1> 
+                    <h2 id = "pageTitle">2026 Achievements</h2>
 
-               <div id = "floating-div">
-                    <input type = "text" id = "win-input" placeholder="what did we win today?">
-                    <br>
-                    <button id = "add-win-button">add our win</button>
+                    <div class = "floatingDiv">
+                        <div class="firstPage"> 
+                            <button id = "editAchievements" type="button">edit achivements</button>
+                             <button id = "editGoals" type="button">edit goals </button>
+                             <br> <br>
+                              <button id = "signOut" type="button">signout</button>
+                        </div>
+                        
+                    </div>  
                </div>    
         </div>
+
+         <script src="script.js"></script>
     </body>
 </html>
