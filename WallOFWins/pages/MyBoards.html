@@ -22,12 +22,33 @@
             <div  class = "content">
                 <div>
                     <h1 id = "userName">ANGELA JAHZIEL's</h1> 
-                    <h2 id = "pageTitle">2026 Achievements</h2>
-
+                    <h2 id = "pageTitle">My Board of Wins</h2>
                     <div class = "floatingDiv">
-                        <input type = "text" id = "win-input" placeholder="what did we win today?">
+                         <div class="select-container"> 
+                             <div class = "dropdown-left">  
+                             <label for="achivements"> achievement category :</label>
+                             <br>
+                                <select id="left-select">
+                                <option value="personal">Personal</option>
+                                <option value="academics">Academics</option>
+                                <option value="health">Health</option>
+                                <option value="hobby">Hobby</option>
+                                </select>
+                            </div>
+                            <div class = "dropdown-right">   
+                                <label for="goaltype">goal type :</label> 
+                                  <br>
+                                <select id="right-select">
+                                <option value="daily">Daily Goals</option>
+                                <option value="semester" >Semester Goals</option>
+                                <option value="year">Year Goals </option>
+                                <option value="bucketList">Bucket List</option>
+                                </select>
+                            </div>
+                            
+                        </div>
                         <br> <br>
-                        <button id = "add-win-button">add our win</button>
+                        <button id = "post-button">post our win</button>
                     </div>  
                </div>    
         </div>
