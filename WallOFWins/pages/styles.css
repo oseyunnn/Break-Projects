@@ -2,17 +2,15 @@ body{
     margin: 20px;
     font-family: Arial, Helvetica, sans-serif;
     background-color: rgb(#646363);
-    align-items: center;
-    flex-direction: column;
 }
 
 .content{
-    margin-top: 20%;
+    margin-top: 85px;
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
-    line-height: 30%;
+    line-height: 10px;
 }
 
 .floatingDiv{
@@ -46,15 +44,64 @@ body{
 }
 
 #userName{
-    font-size: 250%;
+    font-size: 40px;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     margin-bottom: 0;
 }
 
 #pageTitle{
-    font-size: 150%;
+    font-size: 30px;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    margin-top: 10%;
+    margin-top: 30px;
     color: rgb(102, 98, 98);
 }
 
+.navbarContainer {
+    position: relative;
+    display: inline-block;
+}
+
+.navIcon {
+    font-size: 25px;
+    cursor: pointer;
+    padding: 8px;
+    background-color: rgb(#646363);
+    border-radius: 8px;
+    color: rgb(0, 0, 0);
+}
+
+
+.navbar {
+    position: absolute;
+    top: 0;
+    left: 45px;
+    background-color: #bbb9b9;
+    border-radius: 16px;
+    margin-left: 0px;
+    min-width: 20px;
+    display: none; 
+    flex-direction: row;
+    gap: 15px; 
+    padding: 10px 14px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+}
+
+.navbarContainer:hover .navbar {
+    display: flex;
+}
+
+.navbar a {
+    color: rgb(46, 46, 46);
+    padding: 6px 10px;
+    text-decoration: none;
+    border-radius: 25px;
+    white-space: nowrap;
+}
+
+.navbar a:hover {
+    background-color: #868686;
+    color:#ccc;
+}
+.navbar.open {
+    display: flex;
+}
