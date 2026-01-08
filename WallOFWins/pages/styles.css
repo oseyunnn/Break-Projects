@@ -1,0 +1,60 @@
+body{
+    margin: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(#646363);
+    align-items: center;
+    flex-direction: column;
+}
+
+.content{
+    margin-top: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    line-height: 30%;
+}
+
+.floatingDiv{
+    padding: 30px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 16px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+#win-input{
+    padding: 10px;
+    width: 250px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+#add-win-button{
+    padding: 10px 20px;
+    background-color: #eceaea;
+    color: rgb(145, 139, 139);
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    
+}
+
+#add-win-button:hover{
+    background-color: #030303;
+    color: white;
+}
+
+#userName{
+    font-size: 250%;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-bottom: 0;
+}
+
+#pageTitle{
+    font-size: 150%;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 10%;
+    color: rgb(102, 98, 98);
+}
+
