@@ -19,16 +19,6 @@ document.addEventListener("click", (e) => {
     }
 });
 
-// Press Enter to trigger add button
-winInput.addEventListener("keydown", (e) => {
-    if (e.key === "Enter") {
-        const winText = winInput.value.trim();
-        if (winText !== "") {
-            addWinButton.click();
-        }
-    }
-});
-
 addWinButton.addEventListener("click", (e) => {
     const winText = winInput.value.trim();
     if (winText === "") {
@@ -38,19 +28,4 @@ addWinButton.addEventListener("click", (e) => {
         secondPage.style.display = "block";
     }
    
-});
-
-// Add Win Button click
-addWinButton.addEventListener("click", (e) => {
-
-     alert("Button clicked!");
-   /* const winText = winInput.value.trim();
-    if (winText === "") {
-        alert("Please enter a win before adding.");
-        return; // exit early
-    }
-    // Hide first page, show selector
-    firstPage.style.display = "none";
-    selector.style.display = "block";
-    */
 });

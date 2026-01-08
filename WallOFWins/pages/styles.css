@@ -17,6 +17,7 @@ body{
 
 .floatingDiv{
     padding: 30px;
+    margin-top: 20px;
     background-color: rgb(255, 255, 255);
     border-radius: 16px;
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
@@ -154,4 +155,14 @@ select{
 #post-button:hover{
     background-color: #030303;
     color: white;
+}
+
+.board{
+    padding: 30px;
+    margin-top: 20px;
+    background-color: rgba(226, 220, 220, 0.397);
+    border-radius: 16px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+    width: 600px;
+    height: auto;
 }
