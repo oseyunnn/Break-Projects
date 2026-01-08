@@ -13,9 +13,12 @@ body{
     align-items: center;
     text-align: center;
     line-height: 10px;
+    height: clamp(30vh, 50vh, 100vh);
 }
 
 .floatingDiv{
+    width: 500px;
+    min-width: auto;
     padding: 30px;
     margin-top: 20px;
     background-color: rgb(255, 255, 255);
@@ -25,10 +28,11 @@ body{
 
 #win-input{
     padding: 10px;
-    width: 250px;
+    width: 450px;
     border: 1px solid #ccc;
     border-radius: 10px;
     margin-bottom: 10px;
+    text-align: center;;
 }
 input:focus {
     outline-color: rgb(17, 17, 17);
@@ -179,5 +183,21 @@ select{
     border-radius: 16px;
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
     width: 600px;
-    height: auto;
+    height: 300px;
+
+}
+
+.buttonContainer{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.buttonContainer button {
+  margin-left: auto; 
+}
+
+.ctr{
+    color:#807e7e;
+    font-size: 15px;
 }

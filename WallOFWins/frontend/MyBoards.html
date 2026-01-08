@@ -3,7 +3,7 @@
 <html>
     <head>
         <title>My Boards</title>
-            <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="css/styles.css">
 
         <meta charset="UTF-8">
     </head>
@@ -26,7 +26,7 @@
 
                     <div class="select-container"> 
                              <div class = "dropdown-left">  
-                             <label for="achivements"> achievement category :</label>
+                              <label for="category"> select a category :</label>
                              <br>
                                 <select id="left-select">
                                 <option value="personal">Personal</option>
@@ -36,7 +36,7 @@
                                 </select>
                             </div>
                             <div class = "dropdown-right">   
-                                <label for="goaltype">goal type :</label> 
+                                <label for="goaltype">select goal type :</label> 
                                   <br>
                                 <select id="right-select">
                                 <option value="daily">Daily Goals</option>
@@ -46,17 +46,22 @@
                                 </select>
                             </div>
                             
-                        </div>
+                     </div>
 
 
-                    <div class = "board">
-                         
+                        <div class = "board">
+                        
+                        </div>  
+
+                        <div class = "buttonContainer">
                         <br> <br>
-                        <button id = "post-button">next</button>
-                    </div>  
+                        <span class = "ctr">1/1</span>
+                        <button id = "next-button">next</button>
+                        </div>
                </div>    
         </div>
 
-         <script src="script.js"></script>
+         <script src="js/script.js"></script>
+           </div>
     </body>
 </html>
