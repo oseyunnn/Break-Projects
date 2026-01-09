@@ -1,4 +1,4 @@
-package WallOFWins.backend;
+package java;
 
 public class Main {
     public static void main(String[] args) {
