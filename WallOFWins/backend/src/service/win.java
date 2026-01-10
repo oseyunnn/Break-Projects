@@ -1,6 +1,6 @@
 package service;
 
-public abstract class win {
+public class win {
     private String winDesc;
     private String winCategory;
     private String winGoal;
