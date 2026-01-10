@@ -13,7 +13,7 @@ public class treasure{
         this.treasureDesc = treasureDesc;
     }
 
-    public setGoal(String treasureGoal) {
+    public void setGoal(String treasureGoal) {
         this.treasureGoal = treasureGoal;
         this.treasureDate = LocalDateTime.now().format(dateFormatter);
     }
